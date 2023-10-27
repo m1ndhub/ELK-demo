@@ -1,0 +1,12 @@
+server.port: 5601
+server.host: kibana
+
+elasticsearch.hosts: ["http://elasticsearch:9200"]
+
+xpack.security.enabled: true
+xpack.security.authc.anonymous: false
+xpack.security.authc.api_key.enabled: false
+
+
+kibana.defaultUsername: admin
+kibana.defaultPassword: password
